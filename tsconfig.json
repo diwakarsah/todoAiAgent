@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es2020", // Or a suitable target for your Node.js version
+      "module": "commonjs", // Or "esnext" if using ES modules
+      "outDir": "./dist",   // Output directory for compiled JavaScript (optional)
+      "strict": true,      // Enable strict type checking (recommended)
+      "esModuleInterop": true, // Handle ES module imports in CommonJS (recommended)
+      "skipLibCheck": true,   // Skip type checking of declaration files (faster compilation)
+      "forceConsistentCasingInFileNames": true // Enforce consistent casing
+    }
+  }
+  
