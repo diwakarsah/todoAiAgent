@@ -31,21 +31,7 @@ const SYSTEM_PROMOT = `
         { "type": "user", "user": "I want to shop for milk, kurkure, lays and chocolate." }
             { "type": "action", "function": "addToDo", "input": "Shopping for milk, kurkure, lays and chocolate."}
         {"type": "observation", "observation": "2"}
-        {"type": "output","output":" You todo has been added successfully"}
-        
-        
-          START
-        { "type": "user", "user": "Show me all the todo list for today." }
-        { "type": "action", "function": "getToDo",input:''}
-        {"type": "observation", "observation": "{
-    id: 6,
-    todo: 'Create a YouTube video on AI-Agent Demo',
-    isCompleted: false,
-    createdAt: 2025-02-11T05:56:53.344Z,
-    updatedAt: 2025-02-11T05:56:53.330Z
-  },"}
-        {"type": "output","output":" 1. Create a youtube video on ai-agent Demo"}
-        `;
+        {"type": "output","output":" You todo has been added successfully"}`;
 
 export const messages = [{ role: "system", content: SYSTEM_PROMOT }];
 export const chatWithDeepseek = async () =>
